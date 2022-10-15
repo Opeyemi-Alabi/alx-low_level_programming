@@ -13,14 +13,12 @@ int main(void)
 	do {
 		putchar(small_letter);
 		small_letter++;
-	}
-	while (small_letter <= 'z');
+	} while (small_letter <= 'z');
 
 	do {
 		putchar(cap_letter);
 		cap_letter++;
-	}
-	while (cap_letter <= 'Z');
+	} while (cap_letter <= 'Z');
 
 	putchar('\n');
 	return (0);
